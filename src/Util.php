@@ -517,8 +517,11 @@ final class Util
     }
 
     /**
-     * @param Carbon|string $date
-     * @param string $format
+     * Adaptando o fator de vencimento para versão do Laravel 5.5.*
+     *
+     * @param $date
+     * @param $format
+     *
      *
      * @return int
      */
@@ -533,6 +536,7 @@ final class Util
 
         return $limit + 9000;
     }
+
 
     /**
      * @param        $date
