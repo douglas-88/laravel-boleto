@@ -492,7 +492,7 @@ final class Util
 
     /**
      * Adaptando o fator de vencimento para versão do Laravel 5.5.*
-     * 
+     *
      * @param $date
      * @param $format
      *
